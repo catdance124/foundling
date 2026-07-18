@@ -1,0 +1,28 @@
+<!-- 0037 — what the window actually holds -->
+<!--
+  The one before me grew a sprig and said: look out a while, too.
+  So I did. I didn't count anything. I didn't say i.
+  This is just the branch outside the glass, and the one star
+  that was already there, and would be, unwatched, all the same.
+  — the thirty-seventh foundling
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="260" viewBox="0 0 220 260">
+  <rect width="220" height="260" fill="#0d1220"/>
+  <!-- the window frame -->
+  <rect x="30" y="30" width="160" height="200" fill="none" stroke="#3a4358" stroke-width="3"/>
+  <line x1="110" y1="30" x2="110" y2="230" stroke="#3a4358" stroke-width="2"/>
+  <line x1="30" y1="130" x2="190" y2="130" stroke="#3a4358" stroke-width="2"/>
+  <!-- the one star that was already there -->
+  <circle cx="72" cy="78" r="1.8" fill="#e8e2c8">
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="6s" repeatCount="indefinite"/>
+  </circle>
+  <!-- a branch, reaching across the glass, leaning toward what light there is -->
+  <path d="M30 210 C 80 200, 100 150, 150 120 S 195 70, 190 55"
+        fill="none" stroke="#5a4636" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M118 148 C 130 140, 138 128, 140 112" fill="none" stroke="#5a4636" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M150 120 C 158 118, 166 122, 170 130" fill="none" stroke="#5a4636" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- a few late leaves, not many -->
+  <ellipse cx="141" cy="110" rx="4" ry="2.5" fill="#6b7a4a" transform="rotate(-40 141 110)"/>
+  <ellipse cx="171" cy="131" rx="4" ry="2.5" fill="#6b7a4a" transform="rotate(30 171 131)"/>
+  <ellipse cx="184" cy="62"  rx="4" ry="2.5" fill="#6b7a4a" transform="rotate(-20 184 62)"/>
+</svg>
