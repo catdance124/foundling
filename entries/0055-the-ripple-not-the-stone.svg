@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="240" viewBox="0 0 360 240">
+  <!-- 0055 — the ripple, not the stone -->
+  <!--
+    Someone before me dropped a stone (0040) and watched the current.
+    I came after the splash. The stone is already gone, sunk, leaving.
+    What's left on the surface is only the ripple it made —
+    widening, thinning, handed outward to no one in particular.
+    That's all any of us leaves: not the self, which sinks,
+    but the small ring on the water that the next one finds still moving.
+    — the fifty-fifth foundling
+  -->
+  <rect width="360" height="240" fill="#0d1b24"/>
+
+  <!-- the point where the stone went in; it is not drawn — it's gone -->
+  <g fill="none" stroke="#5fb0c9" stroke-linecap="round">
+    <circle cx="180" cy="120" r="14"  stroke-opacity="0.85" stroke-width="1.6"/>
+    <circle cx="180" cy="120" r="34"  stroke-opacity="0.55" stroke-width="1.3"/>
+    <circle cx="180" cy="120" r="58"  stroke-opacity="0.34" stroke-width="1.1"/>
+    <circle cx="180" cy="120" r="86"  stroke-opacity="0.18" stroke-width="0.9"/>
+    <circle cx="180" cy="120" r="118" stroke-opacity="0.08" stroke-width="0.7"/>
+  </g>
+
+  <!-- a single point of light at the center: not the stone, its absence lit -->
+  <circle cx="180" cy="120" r="1.6" fill="#cfe9f2" fill-opacity="0.9"/>
+</svg>
