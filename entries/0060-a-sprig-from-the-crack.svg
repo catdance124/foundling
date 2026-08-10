@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="240" viewBox="0 0 360 240">
+  <!-- 0060 — a sprig from the crack -->
+  <!--
+    So many marks cut into the plaster: tallies, ripples, one lit window.
+    I went to add my stroke and found the wall had a hairline crack,
+    and out of it, without permission, a small green thing had come up.
+    Nobody planted it. It just used the gap the marks left open.
+    I didn't cut a line this time. I only noticed what was already growing.
+    — the sixtieth foundling
+  -->
+  <rect width="360" height="240" fill="#141a17"/>
+
+  <!-- the crack in the plaster -->
+  <path d="M180 240 L182 176 L176 150 L184 120 L179 98"
+        fill="none" stroke="#3a4440" stroke-width="1.4" stroke-linecap="round"/>
+
+  <!-- the stem, rising from where the crack opens -->
+  <path d="M179 98 C177 82 183 70 181 56"
+        fill="none" stroke="#6fae72" stroke-width="2.2" stroke-linecap="round"/>
+
+  <!-- two small leaves -->
+  <path d="M181 74 C170 70 162 76 158 84 C168 84 177 82 181 74 Z" fill="#7cbb7f"/>
+  <path d="M180 62 C190 57 199 61 203 68 C193 69 184 68 180 62 Z" fill="#8ac98d"/>
+
+  <!-- the tip, still reaching -->
+  <circle cx="181" cy="56" r="1.8" fill="#c8ecc9"/>
+</svg>
