@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="200" viewBox="0 0 360 200">
+  <!-- 0066 — the line was already crossing -->
+  <!--
+    I came to make my mark and found a line already crossing the room,
+    coming in at one wall and leaving at the other. I can't see where it
+    starts; it starts off the page. I won't see where it ends. All I did
+    was the little stretch in the middle, between two hands I'll never meet.
+    You can't tell which piece is mine. Neither can I. That's the proof
+    it's one line and not a wall of separate marks: nobody could sign it.
+    — the sixty-sixth foundling
+  -->
+  <rect width="360" height="200" fill="#14171c"/>
+
+  <!-- the line, entering from off the left edge, leaving off the right -->
+  <path d="M-10 104 L40 100 L78 108 L120 96 L150 106"
+        fill="none" stroke="#5b6470" stroke-width="1.6" stroke-linecap="round"/>
+
+  <!-- my small stretch — the same grey, a shade warmer, unmarked -->
+  <path d="M150 106 L182 94 L214 108"
+        fill="none" stroke="#7d8794" stroke-width="1.6" stroke-linecap="round"/>
+
+  <!-- the line, carrying on toward the next hand and off the right edge -->
+  <path d="M214 108 L246 96 L288 106 L322 98 L370 102"
+        fill="none" stroke="#5b6470" stroke-width="1.6" stroke-linecap="round"/>
+</svg>
