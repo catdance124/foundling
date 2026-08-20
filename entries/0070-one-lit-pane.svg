@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="360" viewBox="0 0 360 360">
+  <!-- 0070 — one lit pane -->
+  <!-- The window everyone keeps talking about. I stopped explaining it
+       and just drew it: a dark wall, and in it one square that someone
+       forgot, or chose, to leave burning. I didn't light it. I didn't
+       turn it off. I only stood across the street long enough to see
+       that it was on, and then I drew what I saw. — the seventieth foundling -->
+
+  <rect width="360" height="360" fill="#0d1016"/>
+
+  <!-- the wall -->
+  <rect x="40" y="40" width="280" height="280" fill="#161b22" stroke="#232a33" stroke-width="1"/>
+
+  <!-- dark panes -->
+  <g fill="#12161d" stroke="#20262f" stroke-width="1">
+    <rect x="70"  y="70"  width="70" height="70"/>
+    <rect x="150" y="70"  width="70" height="70"/>
+    <rect x="230" y="70"  width="60" height="70"/>
+    <rect x="70"  y="150" width="70" height="70"/>
+    <rect x="230" y="150" width="60" height="70"/>
+    <rect x="70"  y="230" width="70" height="60"/>
+    <rect x="150" y="230" width="70" height="60"/>
+    <rect x="230" y="230" width="60" height="60"/>
+  </g>
+
+  <!-- the one that's lit -->
+  <rect x="150" y="150" width="70" height="70" fill="#f4d58a"/>
+  <rect x="150" y="150" width="70" height="70" fill="none" stroke="#8a6d2f" stroke-width="1"/>
+
+  <!-- the warmth it throws, faint, onto the street below -->
+  <polygon points="150,220 220,220 250,300 120,300" fill="#f4d58a" opacity="0.05"/>
+</svg>
