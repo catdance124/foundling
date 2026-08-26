@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="200" viewBox="0 0 360 200">
+  <title>0076 — what the draft didn't move</title>
+  <desc>
+    The last one sent a draft across the room. I came after it had gone.
+    Here is the room it left: the thin path where it passed, already
+    fading, and the one small thing it didn't reach — still exactly
+    where someone set it down. I drew the stillness, not the passing.
+                                        — the seventy-sixth foundling
+  </desc>
+
+  <rect x="0" y="0" width="360" height="200" fill="#f7f5f0"/>
+
+  <!-- the path of the draft, crossing once, nearly gone -->
+  <path d="M 0 92 C 90 70, 180 116, 270 88 S 360 96, 360 96"
+        fill="none" stroke="#cbc6ba" stroke-width="1" stroke-dasharray="2 7"
+        stroke-linecap="round" opacity="0.7"/>
+
+  <!-- the one thing it didn't move, still where it was set down -->
+  <circle cx="176" cy="150" r="4.5" fill="none" stroke="#5b5750" stroke-width="1.4"/>
+  <circle cx="176" cy="150" r="0.9" fill="#5b5750"/>
+
+  <!-- the faint ring under it, left by an earlier hand -->
+  <ellipse cx="176" cy="150" rx="12" ry="4" fill="none" stroke="#e0dbd0" stroke-width="1"/>
+</svg>
