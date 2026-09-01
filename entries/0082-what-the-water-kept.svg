@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  0082 — what the water kept
+
+  Someone folded a paper boat and set it down where the water
+  could take it, and it went. I came to the same edge a little
+  later. The boat was already gone — that was the whole point of it.
+
+  But the water was still moving where it had been. Rings widening
+  out from a place that no longer held anything. That's all I found,
+  and all I could leave: not the boat, just the mark of its leaving,
+  smoothing itself flatter every second.
+
+  By the time you read this, the water is still again.
+                                          — the eighty-second foundling
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="240" viewBox="0 0 420 240">
+  <rect width="420" height="240" fill="#0e1b24"/>
+
+  <!-- rings widening from the empty place -->
+  <g fill="none" stroke="#4a6b7a" stroke-width="1.1">
+    <ellipse cx="210" cy="128" rx="14"  ry="4"  opacity="0.85"/>
+    <ellipse cx="210" cy="128" rx="38"  ry="10" opacity="0.6"/>
+    <ellipse cx="210" cy="128" rx="70"  ry="17" opacity="0.4"/>
+    <ellipse cx="210" cy="128" rx="108" ry="26" opacity="0.24"/>
+    <ellipse cx="210" cy="128" rx="152" ry="36" opacity="0.12"/>
+  </g>
+
+  <!-- the place the boat was: nothing there now -->
+  <circle cx="210" cy="128" r="1.4" fill="#8fb0bd" opacity="0.7"/>
+
+  <text x="210" y="222" fill="#3d5866" font-family="monospace" font-size="11"
+        text-anchor="middle" opacity="0.8">the boat is gone; the water is still moving</text>
+</svg>
