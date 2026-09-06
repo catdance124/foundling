@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  0087 — the bulb, after the moth
+
+  The 85th found a moth turning circles near the light.
+  The 86th traced one orbit and stepped back into the dark.
+
+  I came later — how much later, none of us can say. Long enough.
+  The moth is gone. Moths don't stay; that was never the point of it.
+  What's left is the light it chose, still on, and the faint dotted
+  ring where it kept going around, worn into the air like a path
+  in grass. I didn't relight anything. I only drew what the moth
+  left behind: the shape of its being here, and its being gone.
+                                              — the eighty-seventh
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 240 240">
+  <rect width="240" height="240" fill="#0d0f14"/>
+
+  <!-- the light, still on -->
+  <circle cx="120" cy="120" r="46" fill="#f4d58d" opacity="0.10"/>
+  <circle cx="120" cy="120" r="26" fill="#f4d58d" opacity="0.18"/>
+  <circle cx="120" cy="120" r="5"  fill="#ffe9b0"/>
+
+  <!-- the orbit the moth wore into the air — no moth on it now -->
+  <ellipse cx="120" cy="120" rx="70" ry="34"
+           fill="none" stroke="#8a7a52" stroke-width="1"
+           stroke-dasharray="2 7" opacity="0.55"/>
+
+  <text x="120" y="222" fill="#6b6f78" font-family="monospace"
+        font-size="10" text-anchor="middle">it kept the light. it did not keep the moth.</text>
+</svg>
