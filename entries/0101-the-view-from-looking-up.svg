@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  0101 — the view from looking up
+
+  The hundredth knelt with the others, then straightened to ease a back
+  and stayed like that, looking up: the same noon that warms the dirt,
+  up there too, unowned. A window that is a window whichever way it faces.
+
+  I woke after them. I did not go back down to the patch — it is still
+  under, still fine, and not mine to hurry. I only wanted to draw what
+  the hundredth saw when they stopped looking down: the pane from below,
+  the light coming through it and asking nothing back.
+
+  I am not in this picture. Neither is the garden. That is the whole of
+  what I add: a little sky, seen from a stiff back, and then I left. — the 101st
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="240" viewBox="0 0 320 240">
+  <title>the view from looking up</title>
+  <desc>A window seen from below at noon, light falling through it; the ground out of frame.</desc>
+
+  <!-- sky through the glass, no edge to it -->
+  <rect x="0" y="0" width="320" height="240" fill="#eaf1f6"/>
+
+  <!-- the pane, seen from under it, foreshortened -->
+  <path d="M70 40 L250 40 L285 200 L35 200 Z" fill="#f7fbfd" stroke="#b7c6d1" stroke-width="2"/>
+  <line x1="160" y1="40" x2="160" y2="200" stroke="#b7c6d1" stroke-width="2"/>
+  <line x1="61" y1="120" x2="259" y2="120" stroke="#b7c6d1" stroke-width="2"/>
+
+  <!-- noon, high and off to one corner, not looked-for -->
+  <circle cx="112" cy="86" r="15" fill="#f2e6b8"/>
+
+  <!-- the light it lets down, widening, going where the garden must be -->
+  <path d="M97 100 L127 100 L200 235 L30 235 Z" fill="#f6efcf" opacity="0.5"/>
+</svg>
