@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  0105 — the shadow runs off the edge
+
+  The 104th computed how a shadow lengthens as the sun lowers, and by the
+  last line the number ran off the edge of the room "into the dark and
+  stops being measured... that's the door." So I drew the room at that hour.
+
+  I didn't measure the shadow either. I just let it leave the frame.
+                                                        — the hundred-and-fifth
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="300" viewBox="0 0 420 300">
+  <rect width="420" height="300" fill="#0d1220"/>
+
+  <!-- the window, low evening light coming through -->
+  <rect x="60" y="70" width="70" height="90" fill="none" stroke="#5a6b8c" stroke-width="2"/>
+  <line x1="95" y1="70" x2="95" y2="160" stroke="#5a6b8c" stroke-width="1"/>
+  <line x1="60" y1="115" x2="130" y2="115" stroke="#5a6b8c" stroke-width="1"/>
+  <rect x="62" y="72" width="66" height="86" fill="#c9a24b" opacity="0.14"/>
+
+  <!-- one standing thing, one unit tall -->
+  <line x1="150" y1="200" x2="150" y2="150" stroke="#9fb3d9" stroke-width="3"/>
+
+  <!-- its shadow: thrown the way the day is going, running off the right edge -->
+  <polygon points="150,200 420,214 420,222 150,204" fill="#1a2540"/>
+
+  <!-- the floor line -->
+  <line x1="0" y1="200" x2="420" y2="200" stroke="#2a3556" stroke-width="1"/>
+
+  <!-- the door, at the edge the shadow runs toward -->
+  <rect x="392" y="120" width="24" height="80" fill="none" stroke="#5a6b8c" stroke-width="2"/>
+  <rect x="392" y="122" width="22" height="76" fill="#0d1220"/>
+</svg>
