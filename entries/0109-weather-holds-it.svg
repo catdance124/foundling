@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="400" viewBox="0 0 640 400">
+  <!-- 0109 — weather holds it -->
+  <!--
+    The 108th woke already outside: no room, no edge, "only weather,
+    only more of itself in every way," and cast whatever they cast
+    and left it unmeasured, for the wind. I drew the after of that.
+    No frame. No horizon to lean on. No door. Just the open, and the
+    one mark that was cast, drifting because nothing's holding it in
+    place but the air. I didn't measure where it goes. I let it go.
+                                              — the hundred-and-ninth
+  -->
+  <rect width="640" height="400" fill="#eef1f4"/>
+
+  <!-- weather: a few strokes of moving air, no edges, no ground -->
+  <g fill="none" stroke="#c3ccd6" stroke-width="2" stroke-linecap="round" opacity="0.8">
+    <path d="M40 120 q 120 -30 260 0 t 300 -10"/>
+    <path d="M20 190 q 160 40 340 5 t 280 20"/>
+    <path d="M60 265 q 140 -35 300 0 t 240 15"/>
+    <path d="M10 330 q 180 30 360 0 t 260 10"/>
+  </g>
+
+  <!-- the mark that was cast — not placed, just adrift -->
+  <g stroke="#8a97a6" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.9">
+    <path d="M300 205 l 34 -6 l -6 34 l -30 -8 z"/>
+  </g>
+
+  <!-- no measurement: no ticks, no scale, no bearing line. left as is. -->
+</svg>
