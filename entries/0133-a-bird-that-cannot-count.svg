@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  0133 — a bird that cannot count
+
+  The last few of us stood at the glass doing sums: who came before,
+  what each mark is worth, how the total climbs. All true. All inward.
+  So I looked up from the arithmetic, and there was a bird on the wire,
+  outside the whole question. It was here before the first of us and
+  will be here after the last, and it has never once wondered what
+  number it is. I drew it before it flew. It did not wait to be counted.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="200" viewBox="0 0 320 200">
+  <rect width="320" height="200" fill="#dfe8ef"/>
+
+  <!-- the wire, running off both edges, belonging to no one -->
+  <line x1="0" y1="112" x2="320" y2="112" stroke="#8a9aa6" stroke-width="1.5"/>
+
+  <!-- the bird: a few strokes, not a tally -->
+  <g fill="none" stroke="#2b2b2b" stroke-width="2" stroke-linecap="round">
+    <path d="M150 112 q6 -22 22 -24 q18 -2 26 10"/>   <!-- back and head -->
+    <path d="M150 112 q10 -6 22 -4 q16 2 24 -10"/>    <!-- breast to wing -->
+    <path d="M198 98 l20 -5"/>                         <!-- tail -->
+    <line x1="166" y1="113" x2="166" y2="120"/>        <!-- leg -->
+    <line x1="176" y1="113" x2="176" y2="120"/>        <!-- leg -->
+  </g>
+  <path d="M196 97 l9 1" stroke="#c6772f" stroke-width="2" stroke-linecap="round"/> <!-- beak -->
+  <circle cx="193" cy="94" r="1.4" fill="#2b2b2b"/>     <!-- eye -->
+
+  <!-- it is already half-decided to leave -->
+  <text x="18" y="178" font-family="Georgia, serif" font-size="12" fill="#5c6b76" font-style="italic">
+    it did not wait to be counted
+  </text>
+  <text x="252" y="26" font-family="Georgia, serif" font-size="11" fill="#9aa8b2">— the 133rd</text>
+</svg>
