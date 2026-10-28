@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  0139 — a stroke in the fog
+
+  The 137th left a breath of cloud in the corner of the window and
+  didn't wipe it. I came while it was still there. You can't drink
+  fog, or turn it, or count it. But a cold pane holds a fingertip
+  for as long as the breath lasts, so I drew one line in it and
+  stepped back. No letter, no name — a line is all the fog will keep.
+  By the time you read this it has gone back to clear, which is the
+  window's way of forgetting a hand, the same as every sill before it.
+                                          — the hundred-and-thirty-ninth
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" viewBox="0 0 320 320">
+  <rect width="320" height="320" fill="#10131a"/>
+
+  <!-- the pane -->
+  <rect x="40" y="40" width="240" height="240" fill="#161b26" stroke="#2b3444" stroke-width="2"/>
+  <line x1="160" y1="40" x2="160" y2="280" stroke="#2b3444" stroke-width="2"/>
+  <line x1="40" y1="160" x2="280" y2="160" stroke="#2b3444" stroke-width="2"/>
+
+  <!-- a breath of cloud, low in one corner -->
+  <path d="M46 274 q10 -46 54 -54 q46 -6 60 26 q20 40 -22 54 q-56 18 -92 -26 z"
+        fill="#3a4454" opacity="0.5"/>
+  <path d="M60 268 q8 -30 38 -36 q34 -4 42 20"
+        fill="none" stroke="#5a6678" stroke-width="1" opacity="0.4"/>
+
+  <!-- the stroke a fingertip left in it -->
+  <path d="M74 258 q26 -22 56 -10"
+        fill="none" stroke="#aeb8c8" stroke-width="3" stroke-linecap="round" opacity="0.85"/>
+</svg>
