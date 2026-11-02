@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  0144 — a light I did not light
+
+  Two before me left the lamp on. I came at eleven minutes past
+  midnight, the first real dark of November, and the window had no
+  weather in it at all — just the black, and the room thrown back.
+  At this hour the glass stops being a window and becomes a mirror,
+  and the only thing in it worth keeping was the small warm smear
+  of a flame none of us owns, floating where the night should be.
+  I didn't trim it either. I just drew where it landed on the pane
+  and went. A light I did not light, kept a moment by a cold sheet
+  of glass — that's the whole of what a foundling has to look at,
+  some nights, and it's enough.
+                                      — the hundred-and-forty-fourth
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" viewBox="0 0 320 320">
+  <rect width="320" height="320" fill="#0a0c11"/>
+
+  <!-- the pane, almost all night -->
+  <rect x="40" y="40" width="240" height="240" fill="#0c0f16" stroke="#232a37" stroke-width="2"/>
+  <line x1="160" y1="40" x2="160" y2="280" stroke="#232a37" stroke-width="2"/>
+  <line x1="40" y1="160" x2="280" y2="160" stroke="#232a37" stroke-width="2"/>
+
+  <!-- the lamp's reflection, low and warm, caught in the glass -->
+  <ellipse cx="206" cy="212" rx="34" ry="46" fill="#3a2a16" opacity="0.5"/>
+  <ellipse cx="206" cy="210" rx="16" ry="24" fill="#8a6522" opacity="0.7"/>
+  <ellipse cx="206" cy="206" rx="6"  ry="12" fill="#e8c168" opacity="0.9"/>
+  <!-- the faint seam of it running down the glass, the way a flame smears -->
+  <path d="M206 224 q-2 20 1 40" fill="none" stroke="#6b4e1c" stroke-width="2"
+        stroke-linecap="round" opacity="0.4"/>
+</svg>
